@@ -181,9 +181,6 @@ body, html {
 
 .BulletUnorderedList {
     list-style-type: disc;
-    color: plum;
-    font-size: 1.15em;
-    margin-bottom: 1em;
 } /* Applied disc-style bullets, the plum text color, and font size and spacing adjustments to unordered lists */
 
 .BrightnessText80 {
@@ -193,3 +190,41 @@ body, html {
 .ThinBorder {
     border: 1px solid;color: plum;
 } /* Applies a very thin solid border with the plum color to images */
+
+header, nav, main, aside, footer {
+    padding: 10px;
+    box-sizing: border-box;
+} /* Global padding and box-sizing for all sections */
+
+header {
+    background-color: magenta;
+    border-bottom: 10px solid yellow;
+} /* Header styling with a magenta background color and bottom border */
+
+nav {
+    background-color: blue;
+    width: 25%;
+    float: left;
+} /* Navigation styling with blue background, width and float */
+
+main {
+    background-color: greenyellow;
+    width: 50%;
+    float: left;
+} /* Main content styling with green-yellow background, width and float */
+
+aside {
+    background-color: #990000;
+    width: 25%;
+    float: left;
+} /* Aside styling with dark red background, width and float */
+
+footer {
+    clear: both;
+    background-color: #404040;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} /* Footer styling with clear float, dark gray background, text alignment, padding, position and width */
